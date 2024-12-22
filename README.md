@@ -63,3 +63,5 @@ funciona como 'el' e realizará a extração do postgres e junto a isso, direcio
 ```bash
 meltano elt tap-postgres target-snowflake
 ```
+Após a extração, os arquivos sobem e podem ser visualizados no snowflake e manipulados.
+![image](https://github.com/user-attachments/assets/b27948b1-e35d-47ee-8d16-cbbe4af3f1fb)

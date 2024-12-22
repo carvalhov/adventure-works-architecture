@@ -1,3 +1,6 @@
+Essa repositório utiliza o meltano para a extração de um banco de dados postgres SQL da base dados publica 'AdventureWorks' e carregamento dos dados no snowflake para realização do desafio final do Ligthouse da Indicium.
+
+
 # Extraction and loading
 
 ## 1. Create virtual Enviroment

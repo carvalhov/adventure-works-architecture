@@ -26,8 +26,8 @@ meltano init adventure-works-postgres
 ```
 
 ## 4. Add postgres extractor
-Como a fonte do Adventure Works (AW) se encontra no postres, é necessário utilizar tap-postgres, para que o meltano
-adicione o extractor para o postgress.
+Como a fonte do Adventure Works (AW) se encontra no postres, é necessário utilizar [tap-postgres](https://hub.meltano.com/extractors/tap-postgres/), para que o meltano
+adicione o extractor para o postgress. E o loader [target-snowflake](https://hub.meltano.com/loaders/target-snowflake--meltanolabs/)
 
 ```bash
 meltano add extractor tap-postgres
@@ -64,4 +64,5 @@ funciona como 'el' e realizará a extração do postgres e junto a isso, direcio
 meltano elt tap-postgres target-snowflake
 ```
 Após a extração, os arquivos sobem e podem ser visualizados no snowflake e manipulados.
-![image](https://github.com/user-attachments/assets/b27948b1-e35d-47ee-8d16-cbbe4af3f1fb)
+![image](https://github.com/user-attachments/assets/e09b49a6-7ac7-49b1-a61b-acb4964219df)
+
